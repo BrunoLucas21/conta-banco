@@ -1,18 +1,72 @@
-## Getting Started
+# Conta Banco
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples em Java que simula a criação e exibição de uma conta bancária através do terminal.
 
-## Folder Structure
+## 📝 Funcionalidades
 
-The workspace contains two folders by default, where:
+- Solicita ao usuário as informações da conta bancária:
+  - Número da conta
+  - Número da agência
+  - Nome do cliente
+  - Saldo
+- Exibe os dados informados no terminal.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🚀 Tecnologias Utilizadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java
+- Scanner para entrada de dados
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📂 Estrutura do Projeto
 
-## Dependency Management
+````
+ContaBanco/
+├── src/
+│   ├── ContaTerminal.java
+├── README.md
+````
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🛠️ Como Executar
+
+1. Clone o repositório
+````
+git clone https://github.com/seu-usuario/ContaBanco.git
+cd ContaBanco
+````
+2. Compile o código
+````
+javac src/ContaTerminal.java
+````
+4. Execute o programa
+````
+java src.ContaTerminal
+````
+
+## 📌 Exemplo de Uso
+
+````
+Por favor, digite o número da sua conta: 1021
+Número da Conta: 1021
+
+Por favor, digite o número da Agência: 067-8
+Número da Agência: 067-8
+
+Por favor, digite o seu Nome: Mario
+Nome do Cliente: Mario
+
+Por favor, digite o Saldo: 237.48
+Saldo: 237.48
+````
+
+## 🏆 Melhorias Futuras
+
+- Adicionar funcionalidades como depósito e saque.
+- Implementar uma interface gráfica para interação.
+- Conectar com um banco de dados para armazenamento das contas.
+
+## 📜 Licença
+
+Este projeto está sob a licença MIT. Sinta-se à vontade para usá-lo e modificá-lo! 🚀
+
+
+
+
